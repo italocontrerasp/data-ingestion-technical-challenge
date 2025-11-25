@@ -19,7 +19,7 @@ data-ingestion-technical-challenge/
 │   └── top10_products.sql
 │
 ├── api_orders/
-│   └── orders_api_analysis.py
+│   └── orders_api_analysis.ipynb
 │
 ├── cloud_architecture/
 │   ├── modernization_diagram.drawio
@@ -38,9 +38,9 @@ Consulta disponible en `sql/top10_products.sql`.
 
 ---
 
-## ✔ 2. Script Python – Consumo y análisis del API de órdenes
+## ✔ 2. Notebook PySpark – Consumo y análisis del API de órdenes
 
-Script disponible en `api_orders/orders_api_analysis.py`.
+Script disponible en `api_orders/orders_api_analysis.ipynb`.
 
 ---
 
@@ -52,14 +52,21 @@ Diagrama editable: `cloud_architecture/modernization_diagram.drawio`.
 
 ---
 
-## 🧪 Ejecución del Script Python
+## 🧪 Ejecución del notebook PySpark
 
-```bash
-python api_orders/orders_api_analysis.py
-```
+
+1) Creacion del cluster en el workspace databricks
+
+![cluster](assets/cluster.png)
+
+
+2) Carga del notebook y ejecución
+
+![order_api_analysis_output_1](assets/order_api_analysis_output_1.png)
+
+![order_api_analysis_output_2](assets/order_api_analysis_output_2.png)
 
 ---
 
 ## 👤 Autor
-Italo Contreras
-Senior Data Engineer
+Italo Contreras - Senior Data Engineer
