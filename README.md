@@ -26,7 +26,7 @@ data-ingestion-technical-challenge/
 │   └── modernization_proposal.md
 │
 └── assets/
-    ├── relational_model.jpg
+    ├── imgs/
     └── challenge_description.pdf
 ```
 
