@@ -42,18 +42,7 @@ Consulta disponible en `sql/top10_products.sql`.
 
 Script disponible en `api_orders/orders_api_analysis.ipynb`.
 
----
-
-## ✔ 3. Propuesta de modernización a Nube – Azure
-
-Explicación completa en `cloud_architecture/modernization_proposal.md`.
-
-Diagrama editable: `cloud_architecture/modernization_diagram.drawio`.
-
----
-
-## 🧪 Ejecución del notebook PySpark
-
+### Pasos
 
 1) Creacion del cluster en el workspace databricks
 
@@ -67,6 +56,15 @@ Diagrama editable: `cloud_architecture/modernization_diagram.drawio`.
 ![order_api_analysis_output_2](assets/order_api_analysis_output_2.png)
 
 ---
+
+## ✔ 3. Propuesta de modernización a Nube – Azure
+
+Explicación completa en `cloud_architecture/modernization_proposal.md`.
+
+Diagrama editable: `cloud_architecture/modernization_diagram.drawio`.
+
+---
+
 
 ## 👤 Autor
 Italo Contreras - Senior Data Engineer

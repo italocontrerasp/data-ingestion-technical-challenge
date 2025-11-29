@@ -14,6 +14,8 @@ Basado en el enunciado del Caso de Uso (páginas 3–4 del PDF)
 
 ## Arquitectura propuesta (Azure)
 
+![alt text](../assets/imgs/modernization_diagram.png)
+
 ### Capas
 - **Bronze (Raw)** → Storage Gen2  
   Datos crudos del API SUGEF y sistemas on-premise.
