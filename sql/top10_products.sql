@@ -6,10 +6,13 @@ SELECT TOP 10
     AVG(d.LineTotal) AS AvgSale,
     STDEV(d.LineTotal) AS StdDevSale,
     MAX(h.OrderDate) AS LastSaleDate
-FROM SalesOrderHeader h
-JOIN SalesOrderDetail d ON h.SalesOrderID = d.SalesOrderID
-JOIN Product p ON p.ProductID = d.ProductID
-JOIN Customer c ON h.CustomerID = c.CustomerID
+FROM SalesOrderDetail d
+JOIN SalesOrderHeader h 
+ON d.SalesOrderID = h.SalesOrderID
+JOIN Product p 
+ON d.ProductID = p.ProductID
+JOIN Customer c 
+ON h.CustomerID = c.CustomerID
 WHERE c.CustomerType = 'FISICO'
 GROUP BY p.ProductID, p.Name
 ORDER BY TotalQuantitySold DESC;
