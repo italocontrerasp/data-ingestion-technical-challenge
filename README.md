@@ -20,9 +20,10 @@ data-ingestion-technical-challenge/
 │
 ├── api_orders/
 │   └── orders_api_analysis.ipynb
+│   └── orders_api_analysis.md
 │
 ├── cloud_architecture/
-│   ├── modernization_diagram.drawio
+│   ├── modernization_proposal.drawio
 │   └── modernization_proposal.md
 │
 └── assets/
